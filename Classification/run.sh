@@ -1,0 +1,2 @@
+ BERT_MODELPATH=../chinese_L-12_H-768_A-12
+ python bert/run_classifier.py --task_name=mytask --do_train=true --do_eval=false --data_dir=data --vocab_file=$BERT_MODELPATH/vocab.txt --bert_config_file=$BERT_MODELPATH/bert_config.json --init_checkpoint=$BERT_MODELPATH/bert_model.ckpt --max_seq_length=128 --train_batch_size=32 --learning_rate=2e-5 --num_train_epochs=1.0 --output_dir=output
