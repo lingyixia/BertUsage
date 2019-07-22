@@ -2,7 +2,7 @@
 
 # -------------------------------------------------------------------------------
 # @Author        chenfeiyu01
-# @Name:         Main.py
+# @Name:         BERT_NER.py
 # @Project       BertUsage
 # @Product       PyCharm
 # @DateTime:     2019-07-21 18:47
